@@ -6,7 +6,7 @@ def create_connection():
     connection = pymysql.connect(
       host='localhost',
       user='root',
-      password='sreenivas@12',
+      password=' ',
       database='cricket_db'
     )
     if connection.open:
